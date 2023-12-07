@@ -4,7 +4,7 @@
   "description": "An online review app for employees",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vishaal Nair",
@@ -20,7 +20,6 @@
     "express-ejs-layouts": "^2.5.1",
     "express-session": "^1.17.3",
     "mongoose": "^6.7.2",
-    "nodemon": "^3.0.2",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0"
   }
